@@ -1,0 +1,22 @@
+header {
+  height: 350px;
+  width: auto;
+  background-image: url(./assets/design1_image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -130px;
+  justify-content: center;
+}
+header h1 {
+  font-size: 70px;
+  opacity: 75%;
+}
+
+header h2 {
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  position: relative;
+  bottom: -190px;
+  text-align: center;
+}
