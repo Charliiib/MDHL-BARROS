@@ -1,3 +1,9 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
 header {
   height: 350px;
   width: auto;
@@ -5,7 +11,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -130px;
-  justify-content: center;
 }
 header h1 {
   font-size: 70px;
@@ -19,4 +24,12 @@ header h2 {
   position: relative;
   bottom: -190px;
   text-align: center;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  position: sticky;
+  bottom: 350px;
+  left: 1000px;
 }
