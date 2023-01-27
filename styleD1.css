@@ -1,11 +1,12 @@
-*{
+* {
+  padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  list-style: none;
 }
 
-
 header {
-  height: 350px;
+  height: 450px;
   width: auto;
   background-image: url(./assets/design1_image1.jpg);
   background-size: cover;
@@ -17,19 +18,56 @@ header h1 {
   opacity: 75%;
 }
 
-header h2 {
+main #box {
   background-color: black;
-  color: aliceblue;
-  padding: 10px;
-  position: relative;
-  bottom: -190px;
-  text-align: center;
+  height: 50px;
+  align-items: center;
 }
 
-header img {
+main h2 {
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+main #logo{
   height: 150px;
   width: 150px;
-  position: sticky;
-  bottom: 350px;
-  left: 1000px;
+  position: relative;
+  left: 75%;
+  bottom: 90px;
+}
+
+
+main img {
+  height: 20%;
+  width: 20%;
+}
+
+main nav {
+  display: inline-block;
+   margin: 50px;
+
+}
+
+main nav li{ 
+  padding-top: 40px;
+}
+
+main section{
+  position: relative;
+  left: 20%;
+  bottom: 220px;
+
+  display: inline-block;
+}
+
+main section h3{
+  padding-top: 30px;
+}
+
+main img{
+  position: relative;
+  left: 50%;
+  bottom: 200px;
 }
