@@ -77,9 +77,38 @@ main section {
   width: 80%;
   display: flex;
   justify-content: space-evenly;
-
 }
 
+main section#rules {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main section#rules dl {
+  margin-top: 10px;
+}
+main section#rules ol h4 {
+  margin-top: 20px;
+}
+
+main section#rules ol li {
+  margin-top: 20px;
+  list-style: decimal;
+  margin-left: 16px;
+}
+
+main section#rules ol#alpha li {
+  list-style: lower-alpha;
+  margin: 0px;
+}
+
+main section#rules dl ul#ul li {
+  list-style-type: circle;
+  margin-left: 36px;
+}
 main section h3 {
   padding-top: 20px;
 }
