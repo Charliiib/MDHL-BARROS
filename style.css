@@ -27,39 +27,27 @@ header {
 }
 header h1 {
   font-size: 70px;
+  margin-left: 10%;
   position: relative;
   bottom: 80px;
   right: 10%;
 }
 
-header h1 {
-  font-size: 70px;
-  margin-left: 10%;
-}
-main #d1i2 {
-  width: 80%;
-  margin-left: 10%;
-}
 main #box {
   background-color: black;
   height: 30px;
   width: 80%;
   margin-left: 10%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  bottom: 10px;
-}
-
-main h2 {
-  color: aliceblue;
-  text-align: center;
 }
 
 main #logo {
   height: 150px;
   width: 150px;
   position: relative;
-  top: 20px;
+  right: 590px;
 }
 
 main nav ul li {
@@ -72,7 +60,7 @@ main nav ul li {
   border-style: solid;
   border-width: 1px;
   position: relative;
-  left: 76%;
+  left: 65%;
   bottom: 500px;
 }
 main nav ul li a {
@@ -83,16 +71,13 @@ main nav ul li:hover {
   background-color: rgb(99, 153, 46);
 }
 
-main nav ul li:active {
-  background-color: rgb(99, 153, 46);
-}
-
 main section {
-  display: inline-block;
-  position: relative;
-  left: 20%;
-  bottom: 30px;
-  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
 main section h3 {
@@ -100,36 +85,14 @@ main section h3 {
 }
 
 main section img {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  left: 125%;
-  bottom: 190px;
-  border-radius: 300px;
-}
-
-main section img#imgabt {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  left: 125%;
-  bottom: 290px;
-  border-radius: 300px;
-}
-
-main section img#contImg {
-  height: 50%;
-  width: 50%;
-  position: relative;
-  left: 125%;
-  bottom: 120px;
-  border-radius: 300px;
+  height: 30%;
+  width: 30%;
+  border-radius: 130px;
 }
 
 main section#contact p {
-  padding: 20px;
-
+  padding: 30px;
 }
-main section#contact p a{
-color: wheat;
+main section a {
+  color: wheat;
 }
