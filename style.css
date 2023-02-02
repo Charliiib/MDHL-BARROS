@@ -8,11 +8,10 @@
 
 body {
   font-family: "Share Tech", sans-serif;
-  color: white;
-  text-shadow: 8px 8px 10px #0000008c;
-  background-color: #343a40;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-    linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+  color:white ;
+  text-shadow: 8px 8px 10px black;
+  background-image: radial-gradient( circle farthest-corner at 78.8% 54.1% ,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
+  
 }
 
 header {
@@ -72,7 +71,7 @@ main nav ul li:hover {
 }
 
 main section {
-  margin-bottom: 20px;
+  margin-bottom: 150px;
   margin-left: 10%;
   width: 80%;
   display: flex;
@@ -97,17 +96,28 @@ main section a {
 }
 
 main section#rules {
-  width: 80%;
+  width: 50%;
+  margin-left: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+
 }
 
 main section#rules dl {
   margin-top: 10px;
 }
-main section#rules ol h4 {
+
+main section#rules dl dt {
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+main section#rules dl dd {
+  text-indent: 3rem;
+}
+
+main section#rules p {
   margin-top: 20px;
 }
 
@@ -122,7 +132,7 @@ main section#rules ol#alpha li {
   margin: 0px;
 }
 
-main section#rules dl ul#ul li {
+main section#rules ul#ul li {
   list-style-type: circle;
   margin-left: 36px;
 }
@@ -152,4 +162,14 @@ main section#gameInfo table {
 main section#gameInfo table tr td {
   padding-top: 15px;
   padding-left: 35px;
+}
+
+
+main section div#gameInfoBX p{
+  margin: 20px;
+}
+
+main section div#gameInfoBX div{
+  display: flex;
+  justify-content: space-between;
 }
