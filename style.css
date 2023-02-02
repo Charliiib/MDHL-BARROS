@@ -8,10 +8,13 @@
 
 body {
   font-family: "Share Tech", sans-serif;
-  color:white ;
+  color: white;
   text-shadow: 8px 8px 10px black;
-  background-image: radial-gradient( circle farthest-corner at 78.8% 54.1% ,  rgba(50,50,50,1) 0%, rgba(0,0,0,1) 99.4% );
-  
+  background-image: radial-gradient(
+    circle farthest-corner at 78.8% 54.1%,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(0, 0, 0, 1) 99.4%
+  );
 }
 
 header {
@@ -93,6 +96,7 @@ main section#contact p {
 }
 main section a {
   color: wheat;
+  text-decoration: underline;
 }
 
 main section#rules {
@@ -101,7 +105,6 @@ main section#rules {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 main section#rules dl {
@@ -109,8 +112,8 @@ main section#rules dl {
 }
 
 main section#rules dl dt {
-font-weight: bold;
-margin-bottom: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 main section#rules dl dd {
@@ -164,12 +167,11 @@ main section#gameInfo table tr td {
   padding-left: 35px;
 }
 
-
-main section div#gameInfoBX p{
+main section div#gameInfoBX p {
   margin: 20px;
 }
 
-main section div#gameInfoBX div{
+main section div#gameInfoBX div {
   display: flex;
   justify-content: space-between;
 }
