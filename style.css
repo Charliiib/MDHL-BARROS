@@ -21,7 +21,7 @@ header {
   height: 450px;
   width: 80%;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-image: url(./assets/design1_image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,8 +30,9 @@ header {
 header h1 {
   font-size: 70px;
   margin-left: 10%;
+
   position: relative;
-  bottom: 80px;
+  bottom: 90px;
   right: 10%;
 }
 
@@ -56,7 +57,7 @@ main nav ul li {
   display: inline-block;
   margin: 5px;
   padding: 4px;
-  background-color: #008cba;
+  background-color: #3a484d;
   border: none;
   text-align: center;
   border-style: solid;
@@ -70,7 +71,10 @@ main nav ul li a {
   font-size: large;
 }
 main nav ul li:hover {
-  background-color: rgb(99, 153, 46);
+  background-color: white;
+}
+main nav ul li a:hover {
+  color: black;
 }
 
 main section {
@@ -157,11 +161,26 @@ main section#gameInfo h2 {
   font-size: 3rem;
 }
 
+main section#gameInfo span {
+  font-size: 25px;
+  font-style: italic;
+  position: relative;
+  right: 13%;
+  margin-top: 5%;
+}
+
 main section#gameInfo table {
   display: inline-block;
   margin-top: 20px;
   font-size: 20px;
 }
+
+main section#gameInfo table caption {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 main section#gameInfo table tr td {
   padding-top: 15px;
   padding-left: 35px;
