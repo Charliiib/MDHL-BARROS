@@ -5,7 +5,6 @@
   list-style: none;
   text-decoration: none;
 }
-
 body {
   font-family: "Share Tech", sans-serif;
   color: white;
@@ -16,7 +15,6 @@ body {
     rgba(0, 0, 0, 1) 99.4%
   );
 }
-
 header {
   height: 450px;
   width: 80%;
@@ -30,12 +28,10 @@ header {
 header h1 {
   font-size: 70px;
   margin-left: 10%;
-
   position: relative;
   bottom: 90px;
   right: 10%;
 }
-
 main #box {
   background-color: black;
   height: 30px;
@@ -45,14 +41,12 @@ main #box {
   justify-content: center;
   align-items: center;
 }
-
 main #logo {
   height: 150px;
   width: 150px;
   position: relative;
   right: 590px;
 }
-
 main nav ul li {
   display: inline-block;
   margin: 5px;
@@ -76,7 +70,6 @@ main nav ul li:hover {
 main nav ul li a:hover {
   color: black;
 }
-
 main section {
   margin-bottom: 150px;
   margin-left: 10%;
@@ -84,17 +77,14 @@ main section {
   display: flex;
   justify-content: space-evenly;
 }
-
 main section h3 {
   padding-top: 20px;
 }
-
 main section img {
   height: 30%;
   width: 30%;
   border-radius: 130px;
 }
-
 main section#contact p {
   padding: 30px;
 }
@@ -102,7 +92,6 @@ main section a {
   color: wheat;
   text-decoration: underline;
 }
-
 main section#rules {
   width: 50%;
   margin-left: 25%;
@@ -110,40 +99,32 @@ main section#rules {
   flex-direction: column;
   align-items: center;
 }
-
 main section#rules dl {
   margin-top: 10px;
 }
-
 main section#rules dl dt {
   font-weight: bold;
   margin-bottom: 30px;
 }
-
 main section#rules dl dd {
   text-indent: 3rem;
 }
-
 main section#rules p {
   margin-top: 20px;
 }
-
 main section#rules ol li {
   margin-top: 20px;
   list-style: decimal;
   margin-left: 16px;
 }
-
 main section#rules ol#alpha li {
   list-style: lower-alpha;
   margin: 0px;
 }
-
 main section#rules ul#ul li {
   list-style-type: circle;
   margin-left: 36px;
 }
-
 main section#gameInfo {
   margin-top: 20px;
   width: 80%;
@@ -151,16 +132,13 @@ main section#gameInfo {
   flex-direction: column;
   justify-content: space-between;
 }
-
 main section#gameInfo {
   display: flex;
   align-items: center;
 }
-
 main section#gameInfo h2 {
   font-size: 3rem;
 }
-
 main section#gameInfo span {
   font-size: 25px;
   font-style: italic;
@@ -168,28 +146,23 @@ main section#gameInfo span {
   right: 13%;
   margin-top: 5%;
 }
-
 main section#gameInfo table {
   display: inline-block;
   margin-top: 20px;
   font-size: 20px;
 }
-
 main section#gameInfo table caption {
   display: inline-block;
   margin-bottom: 20px;
   text-decoration: underline;
 }
-
 main section#gameInfo table tr td {
   padding-top: 15px;
   padding-left: 35px;
 }
-
 main section div#gameInfoBX p {
   margin: 20px;
 }
-
 main section div#gameInfoBX div {
   display: flex;
   justify-content: space-between;
