@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mighty Ducks Hockey League</h1>
+    </header>
+
+    <main>
+      <div id="box">
+        <img
+          src="./assets/Logo_Mighty_ducks-01.png"
+          id="logo"
+          alt="logo mighty ducks"
+        />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutDHL.html">About MDHL</a></li>
+          <li><a href="./gameInfo.html">Game Info</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="./rules.html">Rules</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <form action="#">
+          <legend>Registration Form</legend>
+          <fieldset class="formbx">
+            <label for="name"
+              >Player's First Name: <input type="text" id="name" name="name"
+            /></label>
+            <label for="lname"
+              >Last Name: <input type="text" id="lname" name="lname"
+            /></label>
+          </fieldset>
+<fieldset>
+  <label for="address"
+  >Street Address: <input type="text" id="address" name="address"
+/></label>
+</fieldset>
+   
+
+          <fieldset class="formbx">
+            <label for="city"
+              >City: <input type="text" id="city" name="city"
+            /></label>
+            <label for="ZipCode"
+              >Zip Code: <input type="text" id="ZipCode" name="ZipCode"
+            /></label>
+          </fieldset>
+
+          <fieldset class="formbx">
+            <label for="birth"
+              >Birth Date(mm/dd/yyyy):
+              <input type="date" id="birth" name="birth"
+            /></label>
+            <label for="gender"
+              >Gender:
+              <span>Female</span>
+              <input type="radio" id="female" name="gender" value="female" />
+              <span>Male</span>
+              <input type="radio" id="male" name="gender" value="male"
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <label for="grade">Grade:</label>
+            <input
+              type="radio"
+              id="Pre-School"
+              name="grade"
+              value="Pre-School"
+            />
+            <span>Pre-School</span>
+            <input type="radio" id="1st" name="grade" value="1st" />
+            <span>1st</span>
+            <input type="radio" id="2nd" name="grade" value="2nd" />
+            <span>2nd</span>
+            <input type="radio" id="3rd" name="grade" value="3rd" />
+            <span>3rd</span>
+            <input type="radio" id="4th" name="grade" value="4th" />
+            <span>4th</span>
+            <input type="radio" id="5th" name="grade" value="5th" />
+            <span>5th</span>
+          </fieldset>
+
+          <h2>Wich elementary school do you live near?</h2>
+          <h3>Closest School</h3>
+          <fieldset>
+            <label for="schools"></label>
+            <input
+              type="checkbox"
+              id="AJ Katzenmaier"
+              name="schools"
+              value="AJ Katzenmaier"
+            />
+            <span>Aj Katzenmaier</span>
+            <input
+              type="checkbox"
+              id="Greenbay"
+              name="schools"
+              value="Greenbay"
+            />
+            <span>Greenbay</span>.
+            <input
+              type="checkbox"
+              id="Howard A Yeager"
+              name="schools"
+              value="Howard A Yeager"
+            />
+            <span>Howard A Yeager</span>
+            <input
+              type="checkbox"
+              id="Marjorie P Hart"
+              name="schools"
+              value="Marjorie P Hart"
+            />
+            <span>Marjorie P Hart</span>
+            <input
+              type="checkbox"
+              id="North Elementary"
+              name="schools"
+              value="North Elementary"
+            />
+            <span>North Elementary</span>
+            <input
+              type="checkbox"
+              id="South Elementary"
+              name="schools"
+              value="South Elementary"
+            />
+            <span>South Elementary</span>
+          </fieldset>
+
+          <h2>What position(s) do you normally play? (check all that apply)</h2>
+
+          <fieldset>
+            <label for="positions"></label>
+            <input
+              type="checkbox"
+              id="Forward"
+              name="positions"
+              value="Forward"
+            />
+            <span>Forward</span>
+            <input
+              type="checkbox"
+              id="Defence"
+              name="positions"
+              value="Defence"
+            />
+            <span>Defence</span>
+            <input
+              type="checkbox"
+              id="Midfield"
+              name="positions"
+              value="Midfield"
+            />
+            <span>Midfield</span>
+            <input
+              type="checkbox"
+              id="Goalkeeper"
+              name="positions"
+              value="Goalkeeper"
+            />
+            <span>Goalkeeper</span>
+          </fieldset>
+
+          <h2>Uniforms Size</h2>
+
+          <fieldset>
+            <label for="uniform"></label>
+            <input
+              type="radio"
+              id="Youth Small"
+              name="uniform"
+              value="Youth Small"
+            />
+            <span>Youth Small</span>
+            <input
+              type="radio"
+              id="Youth Medium"
+              name="uniform"
+              value="Youth Medium"
+            />
+            <span>Youth Medium</span>
+            <input
+              type="radio"
+              id="Youth Large"
+              name="uniform"
+              value="Youth Large"
+            />
+            <span>Youth Large</span>
+            <input type="radio" id="Small" name="uniform" value="Small" />
+            <span>Small</span>
+            <input type="radio" id="Medium" name="uniform" value="Medium" />
+            <span>Medium</span>
+            <input type="radio" id="Large" name="uniform" value="Large" />
+            <span>Large</span>
+            <input
+              type="radio"
+              id="Extra-Large"
+              name="uniform"
+              value="Extra-Large"
+            />
+            <span>Extra-Large</span>
+          </fieldset>
+
+          <h2>Permission to Play</h2>
+          <p>
+            I, the parent or guardian of the minor registrant, agree that the
+            registrant and I will abide by all the rules of the Mighty Ducks
+            Hockey League (MDHL). In recognizing the possibility of physical
+            injury associated with hockey and in consideration for the “League"
+            accepting the registrant for its hockey programs and activities, I
+            hereby release, discharge, and/or otherwise indemnify MDHL, their
+            employees and associated personnel and voIunteers,incIuding the
+            facilities used for practices and games, against any claim by or on
+            behalf of the registrant as a result of the registrant's
+            participation in the programand/orbeing transported to or from MDHL
+            sponsored activities,which transportation.
+          </p>
+          <p>
+            By signing below, I herebyagree andauthorizethe above.In addition,
+            by signing below, lalso acknowledge that I have read the
+            cancellation policy and agree to its terms.
+          </p>
+
+          <label for="permission">Parent/Guardian Signature:</label>
+          <input type="text" id="permission" name="permission" />
+          <label for="date">Date:</label>
+          <input type="text" name="date" id="date" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
