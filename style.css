@@ -180,6 +180,26 @@ main section div#gameInfoBX div {
   justify-content: space-between;
 }
 
+main div.maps {
+  margin-bottom: 150px;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main div.maps p {
+  font-family: "Share Tech", sans-serif;
+  color: white;
+  text-shadow: 8px 8px 10px black;
+  font-size: larger;
+  padding: 20px;
+}
+
+main div.maps iframe {
+  border-radius: 40px;
+}
+
 /*******************************
 ********REGISTRATION CSS********
 ********************************/
@@ -203,7 +223,7 @@ main section form fieldset {
   border: none;
 }
 
-main section form fieldset#address input {
+main section form fieldset#addressStyle input {
   width: 81%;
 }
 
