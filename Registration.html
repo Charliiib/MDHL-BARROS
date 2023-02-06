@@ -33,54 +33,38 @@
       </nav>
 
       <section>
-        <form action="#">
+        <form action="show_data.html" method="get" target="_blank">
           <legend>Registration Form</legend>
-          <fieldset class="formbx">
-            <label for="name"
-              >Player's First Name: <input type="text" id="name" name="name"
-            /></label>
-            <label for="lname"
-              >Last Name: <input type="text" id="lname" name="lname"
-            /></label>
-          </fieldset>
-<fieldset>
-  <label for="address"
-  >Street Address: <input type="text" id="address" name="address"
-/></label>
-</fieldset>
-   
 
           <fieldset class="formbx">
-            <label for="city"
-              >City: <input type="text" id="city" name="city"
-            /></label>
-            <label for="ZipCode"
-              >Zip Code: <input type="text" id="ZipCode" name="ZipCode"
-            /></label>
+            <label for="name">Player's First Name: <input type="text" id="name" name="name"required/></label>
+            <label for="last name">Last Name: <input type="text" id="last name" name="last name"required/></label>
+          </fieldset>
+
+
+          <fieldset id="address">
+            <label for="address">Street Address: <input type="text" id="address" name="address"required/></label>
           </fieldset>
 
           <fieldset class="formbx">
-            <label for="birth"
-              >Birth Date(mm/dd/yyyy):
-              <input type="date" id="birth" name="birth"
-            /></label>
-            <label for="gender"
-              >Gender:
+            <label for="city">City: <input type="text" id="city" name="city"required/></label>
+            <label for="ZipCode">Zip Code: <input type="text" id="ZipCode" name="ZipCode"required/></label>
+          </fieldset>
+
+          <fieldset class="formbx">
+            <label for="birth">Birth Date(mm/dd/yyyy):
+              <input type="date" id="birth" name="birth"required/></label>
+            <label for="gender">Gender:
               <span>Female</span>
-              <input type="radio" id="female" name="gender" value="female" />
+              <input type="radio" id="female" name="gender" value="female"required />
               <span>Male</span>
               <input type="radio" id="male" name="gender" value="male"
             /></label>
           </fieldset>
 
           <fieldset>
-            <label for="grade">Grade:</label>
-            <input
-              type="radio"
-              id="Pre-School"
-              name="grade"
-              value="Pre-School"
-            />
+            <label for="grade">Grade:
+            <input type="radio" id="Pre-School" name="grade" value="Pre-School"required/>
             <span>Pre-School</span>
             <input type="radio" id="1st" name="grade" value="1st" />
             <span>1st</span>
@@ -91,129 +75,79 @@
             <input type="radio" id="4th" name="grade" value="4th" />
             <span>4th</span>
             <input type="radio" id="5th" name="grade" value="5th" />
-            <span>5th</span>
+            <span>5th</span></label>
           </fieldset>
 
-          <h2>Wich elementary school do you live near?</h2>
-          <h3>Closest School</h3>
-          <fieldset>
-            <label for="schools"></label>
-            <input
-              type="checkbox"
-              id="AJ Katzenmaier"
-              name="schools"
-              value="AJ Katzenmaier"
-            />
-            <span>Aj Katzenmaier</span>
-            <input
-              type="checkbox"
-              id="Greenbay"
-              name="schools"
-              value="Greenbay"
-            />
-            <span>Greenbay</span>.
-            <input
-              type="checkbox"
-              id="Howard A Yeager"
-              name="schools"
-              value="Howard A Yeager"
-            />
-            <span>Howard A Yeager</span>
-            <input
-              type="checkbox"
-              id="Marjorie P Hart"
-              name="schools"
-              value="Marjorie P Hart"
-            />
-            <span>Marjorie P Hart</span>
-            <input
-              type="checkbox"
-              id="North Elementary"
-              name="schools"
-              value="North Elementary"
-            />
-            <span>North Elementary</span>
-            <input
-              type="checkbox"
-              id="South Elementary"
-              name="schools"
-              value="South Elementary"
-            />
-            <span>South Elementary</span>
+  <h2>Wich elementary school do you live near?</h2>
+    <h3>Closest School</h3>
+      <fieldset class="columnbx">
+        <div>
+          <label for="schools">
+            <input type="checkbox" id="AJ Katzenmaier" name="schools"  value="AJ Katzenmaier"/> Aj Katzenmaier</label>
+          <label for="schools">
+            <input type="checkbox" id="Greenbay" name="schools" value="Greenbay"/> Greenbay</label>
+          <label for="schools">
+            <input type="checkbox" id="Howard A Yeager" name="schools" value="Howard A Yeager"/> Howard A Yeager</label>
+        </div>
+        <div>
+          <label for="schools">
+            <input type="checkbox"id="Marjorie P Hart" name="schools" value="Marjorie P Hart"/> Marjorie P Hart</label>
+          <label for="schools">
+            <input type="checkbox" id="North Elementary" name="schools" value="North Elementary"/> North Elementary</label>
+          <label for="schools">
+            <input type="checkbox" id="South Elementary"  name="schools" value="South Elementary"/> South Elementary</label>
+        </div>
           </fieldset>
+
+
+
+
+
 
           <h2>What position(s) do you normally play? (check all that apply)</h2>
 
-          <fieldset>
-            <label for="positions"></label>
-            <input
-              type="checkbox"
-              id="Forward"
-              name="positions"
-              value="Forward"
-            />
-            <span>Forward</span>
-            <input
-              type="checkbox"
-              id="Defence"
-              name="positions"
-              value="Defence"
-            />
-            <span>Defence</span>
-            <input
-              type="checkbox"
-              id="Midfield"
-              name="positions"
-              value="Midfield"
-            />
-            <span>Midfield</span>
-            <input
-              type="checkbox"
-              id="Goalkeeper"
-              name="positions"
-              value="Goalkeeper"
-            />
-            <span>Goalkeeper</span>
+          <fieldset class="columnbx">
+            <div>
+              <label for="positions">
+                <input type="checkbox" id="Forward" name="positions" value="Forward"/> Forward</label>
+              <label for="positions">
+                <input type="checkbox" id="Defence" name="positions" value="Defence"/> Defence</label>
+            </div>
+            <div>
+              <label for="positions">
+                <input type="checkbox" id="Midfield" name="positions" value="Midfield"/> Midfield</label>
+              <label for="positions">
+                <input type="checkbox" id="Goalkeeper" name="positions" value="Goalkeeper"/> Goalkeeper</label>
+          </div>
           </fieldset>
+
+
+
+
+
+
 
           <h2>Uniforms Size</h2>
 
-          <fieldset>
-            <label for="uniform"></label>
-            <input
-              type="radio"
-              id="Youth Small"
-              name="uniform"
-              value="Youth Small"
-            />
-            <span>Youth Small</span>
-            <input
-              type="radio"
-              id="Youth Medium"
-              name="uniform"
-              value="Youth Medium"
-            />
-            <span>Youth Medium</span>
-            <input
-              type="radio"
-              id="Youth Large"
-              name="uniform"
-              value="Youth Large"
-            />
-            <span>Youth Large</span>
-            <input type="radio" id="Small" name="uniform" value="Small" />
-            <span>Small</span>
-            <input type="radio" id="Medium" name="uniform" value="Medium" />
-            <span>Medium</span>
-            <input type="radio" id="Large" name="uniform" value="Large" />
-            <span>Large</span>
-            <input
-              type="radio"
-              id="Extra-Large"
-              name="uniform"
-              value="Extra-Large"
-            />
-            <span>Extra-Large</span>
+          <fieldset class="columnbx">
+            <div>
+              <label for="uniform" >
+                <input type="radio"id="Youth Small" name="uniform" value="Youth Small"/> Youth Small</label>
+              <label for="uniform">
+                <input type="radio" id="Youth Medium" name="uniform" value="Youth Medium"/> Youth Medium</label>
+              <label for="uniform">
+                <input type="radio" id="Youth Large" name="uniform" value="Youth Large"/> Youth Large</label>
+          </div>
+          <div>
+            <label for="uniform" >
+              <input type="radio" id="Small" name="uniform" value="Small"/> Small</label>
+            <label for="uniform">
+              <input type="radio" id="Medium" name="uniform" value="Medium"/> Medium</label>
+            <label for="uniform">
+              <input type="radio" id="Large" name="uniform" value="Large"/> Large</label>
+            <label for="uniform">
+              <input type="radio" id="Extra-Large"name="uniform" value="Extra-Large" required/> Extra-Large</label>
+          </div>
           </fieldset>
 
           <h2>Permission to Play</h2>
@@ -231,15 +165,17 @@
             sponsored activities,which transportation.
           </p>
           <p>
-            By signing below, I herebyagree andauthorizethe above.In addition,
-            by signing below, lalso acknowledge that I have read the
+            By entering your name below, I herebyagree andauthorizethe above.In addition,
+            by entering your name below, l also acknowledge that I have read the
             cancellation policy and agree to its terms.
           </p>
 
           <label for="permission">Parent/Guardian Signature:</label>
-          <input type="text" id="permission" name="permission" />
+          <input type="text" id="permission" name="permission" required/>
           <label for="date">Date:</label>
-          <input type="text" name="date" id="date" />
+          <input type="date" name="date" id="date"required /> 
+
+          <button>submit</button>
         </form>
       </section>
     </main>
