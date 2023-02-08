@@ -32,7 +32,7 @@ header h1 {
   bottom: 90px;
   right: 10%;
 }
-main .hide {
+main .hide{
   display: none;
 }
 
@@ -64,7 +64,6 @@ main nav ul li {
   left: 59%;
   bottom: 500px;
 }
-
 main nav ul li a {
   color: aliceblue;
   font-size: large;
@@ -229,7 +228,7 @@ main section form fieldset {
 }
 
 main section form fieldset#addressStyle input {
-  width: 82%;
+  width: 81%;
 }
 
 main section form h2 {
@@ -245,14 +244,14 @@ main section form input {
   font-size: 20px;
 }
 
-main section select {
+main section select{
   margin-top: 10px;
 }
 
-main section p#select {
+main section p#select{
   font-size: small;
 }
-main section select {
+main section select{
   font-size: larger;
 }
 
@@ -274,143 +273,4 @@ main section form button {
   margin-top: 50px;
   width: 10%;
   font-size: larger;
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    height: 300px;
-    background-position-y: 0px;
-  }
-  header h1 {
-    font-size: 30px;
-    margin-left: 10%;
-    bottom: 35px;
-    right: 10%;
-  }
-
-  main #box {
-    height: 30px;
-    width: 80%;
-    margin-left: 10%;
-  }
-  main #logo {
-    height: 110px;
-    width: 110px;
-    position: absolute;
-    right: 120px;
-  }
-  main nav ul li {
-    margin: 5px;
-    padding: 4px;
-    left: 12%;
-    bottom: 330px;
-  }
-
-  main div.maps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  main section form {
-    font-size: 15px;
-    width: 100%;
-  }
-
-  main section form fieldset#addressStyle input {
-    width: 77%;
-  }
-
-  main section#rules {
-    margin: 0px;
-    padding: 40px;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  header {
-    height: 200px;
-  }
-  header h1 {
-    font-size: 19px;
-    margin-left: 10%;
-    bottom: 18px;
-    right: 10%;
-  }
-
-  main #logo {
-    height: 100px;
-    width: 100px;
-    right: 140px;
-    top: 250px;
-  }
-  main nav ul li {
-    width: 24%;
-    left: 9%;
-    bottom: 100px;
-  }
-  main nav ul li a {
-    font-size: 12px;
-  }
-
-  main section#form {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  main section form {
-    font-size: 15px;
-    width: 100%;
-  }
-
-  main section form fieldset#addressStyle input {
-    width: fit-content;
-  }
-
-  main section#gameInfo {
-    margin-top: 20px;
-  }
-
-  main section#gameInfo h2 {
-    display: none;
-  }
-
-  main section#gameInfo table tbody tr td {
-    font-size: 12px;
-    border-bottom: 1px solid wheat;
-    border-top: 1px solid wheat;
-  }
-  main section div#gameInfoBX div {
-    display: flex;
-    flex-direction: column;
-  }
-  main div.maps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  main div.maps iframe {
-    border-radius: 40px;
-    width: 90%;
-    height: 90%;
-  }
-
-  main section#form {
-    margin: 0px;
-    margin-top: 20px;
-    padding-left: 50px;
-  }
-
-  main section form fieldset {
-    display: flex;
-    flex-direction: column;
-  }
-
-  main section#rules {
-    margin: 0px;
-    padding: 40px;
-    width: auto;
-  }
 }
