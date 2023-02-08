@@ -32,7 +32,7 @@ header h1 {
   bottom: 90px;
   right: 10%;
 }
-main .hide{
+main .hide {
   display: none;
 }
 
@@ -244,14 +244,14 @@ main section form input {
   font-size: 20px;
 }
 
-main section select{
+main section select {
   margin-top: 10px;
 }
 
-main section p#select{
+main section p#select {
   font-size: small;
 }
-main section select{
+main section select {
   font-size: larger;
 }
 
