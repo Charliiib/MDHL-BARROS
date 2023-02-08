@@ -32,6 +32,10 @@ header h1 {
   bottom: 90px;
   right: 10%;
 }
+main .hide{
+  display: none;
+}
+
 main #box {
   background-color: black;
   height: 30px;

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mighty Ducks Hockey League</title>
-    <link rel="shortcut icon" href="./assets/ice-hockey.png">
+    <link rel="shortcut icon" href="./assets/ice-hockey.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,6 +34,7 @@
       </nav>
 
       <section>
+        <h2 class="hide">Registration form</h2>
         <form action="show_data.html" method="get" target="_blank">
           <fieldset class="formbx">
             <legend>Registration Form</legend>
@@ -42,13 +43,15 @@
               <input type="text" id="first_name" name="first_name" required
             /></label>
             <label for="last_name"
-              >Last Name: <input type="text" id="last_name" name="last_name" required
+              >Last Name:
+              <input type="text" id="last_name" name="last_name" required
             /></label>
           </fieldset>
 
           <fieldset id="addressStyle">
             <label for="address"
-              >Street Address: <input type="text" id="address" name="address" required
+              >Street Address:
+              <input type="text" id="address" name="address" required
             /></label>
           </fieldset>
 
@@ -57,7 +60,8 @@
               >City: <input type="text" id="city" name="city" required
             /></label>
             <label for="ZipCode"
-              >Zip Code: <input type="text" id="ZipCode" name="ZipCode" required
+              >Zip Code:
+              <input type="text" id="ZipCode" name="ZipCode" required
             /></label>
           </fieldset>
 
@@ -69,7 +73,13 @@
             <div>
               <span>Gender:</span>
               <label for="female">Female</label>
-              <input type="radio" id="female" name="gender" value="female" required />
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+              />
               <label for="male">Male</label>
               <input type="radio" id="male" name="gender" value="male" />
             </div>
@@ -110,27 +120,27 @@
 
           <fieldset>
             <label for="parent"
-              >Parent/Guardian: <input type="text" id="parent" name="parent" required
+              >Parent/Guardian:
+              <input type="text" id="parent" name="parent" required
             /></label>
           </fieldset>
+          <fieldset>
+            <h2>Wich elementary school do you live near?</h2>
+            <h3>Closest School</h3>
+            <p id="select">
+              Hold down the Ctrl (windows) or Command (Mac) button to select
+              multiple options.
+            </p>
 
-          <h2>Wich elementary school do you live near?</h2>
-          <h3>Closest School</h3>
-          <p id="select">Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
-          <fieldset class="columnbx">
-            <div>
-              <label for="schools"></label>
-              <select name="schools" id="schools" multiple>
-                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
-                <option value="Greenbay">Greenbay</option>
-                <option value="Howard A Yeager">Howard A Yeager</option>
-                <option value="Marjorie P Hart">Marjorie P Hart</option>
-                <option value="North Elementary">North Elementary</option>
-                <option value="South_Elementary">South_Elementary</option>
-              </select>
-
-
-            </div>
+            <label for="schools"></label>
+            <select name="schools" id="schools" multiple>
+              <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+              <option value="Greenbay">Greenbay</option>
+              <option value="Howard A Yeager">Howard A Yeager</option>
+              <option value="Marjorie P Hart">Marjorie P Hart</option>
+              <option value="North Elementary">North Elementary</option>
+              <option value="South_Elementary">South_Elementary</option>
+            </select>
           </fieldset>
 
           <h2>What position(s) do you normally play? (check all that apply)</h2>
@@ -187,7 +197,8 @@
                   type="radio"
                   id="Youth_Small"
                   name="uniform"
-                  value="Youth Small" required
+                  value="Youth Small"
+                  required
                 />
                 Youth Small</label
               >
@@ -256,9 +267,9 @@
           </p>
 
           <label for="permission">Parent/Guardian Signature:</label>
-          <input type="text" id="permission" name="permission" required/>
+          <input type="text" id="permission" name="permission" required />
           <label for="date">Date:</label>
-          <input type="date" name="date" id="date" required/>
+          <input type="date" name="date" id="date" required />
 
           <button>submit</button>
         </form>
