@@ -244,6 +244,10 @@ main section form input {
   font-size: 20px;
 }
 
+main section select{
+  margin-top: 10px;
+}
+
 main section p#select{
   font-size: small;
 }
