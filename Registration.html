@@ -116,64 +116,20 @@
 
           <h2>Wich elementary school do you live near?</h2>
           <h3>Closest School</h3>
+          <p id="select">Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
           <fieldset class="columnbx">
             <div>
-              <label for="AJ_Katzenmaier">
-                <input
-                  type="checkbox"
-                  id="AJ_Katzenmaier"
-                  name="schools"
-                  value="AJ Katzenmaier"
-                />
-                Aj Katzenmaier</label
-              >
-              <label for="Greenbay">
-                <input
-                  type="checkbox"
-                  id="Greenbay"
-                  name="schools"
-                  value="Greenbay" 
-                />
-                Greenbay</label
-              >
-              <label for="Howard_A_Yeager">
-                <input
-                  type="checkbox"
-                  id="Howard_A_Yeager"
-                  name="schools"
-                  value="Howard A Yeager"
-                />
-                Howard A Yeager</label
-              >
-            </div>
-            <div>
-              <label for="Marjorie_P_Hart">
-                <input
-                  type="checkbox"
-                  id="Marjorie_P_Hart"
-                  name="schools"
-                  value="Marjorie P Hart"
-                />
-                Marjorie P Hart</label
-              >
-              <label for="North_Elementary">
-                <input
-                  type="checkbox"
-                  id="North_Elementary"
-                  name="schools"
-                  value="North Elementary"
-                />
-                North Elementary</label
-              >
-              <label for="South_Elementary">
-                <input
-                  type="checkbox"
-                  id="South_Elementary"
-                  name="schools"
-                  value="South_Elementary"
-                />
-                South Elementary</label
-              >
+              <label for="schools"></label>
+              <select name="schools" id="schools" multiple>
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South_Elementary">South_Elementary</option>
+              </select>
+
+
             </div>
           </fieldset>
 

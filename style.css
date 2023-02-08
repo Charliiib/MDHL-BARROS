@@ -240,6 +240,13 @@ main section form input {
   font-size: 20px;
 }
 
+main section p#select{
+  font-size: small;
+}
+main section select{
+  font-size: larger;
+}
+
 main section form .columnbx {
   display: flex;
 }
