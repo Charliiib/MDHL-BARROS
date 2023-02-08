@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mighty Ducks Hockey League</title>
+    <link rel="shortcut icon" href="./assets/ice-hockey.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -37,37 +38,38 @@
           <fieldset class="formbx">
             <legend>Registration Form</legend>
             <label for="first_name"
-              >Player's First Name: <input type="text" id="first_name" name="first_name"
+              >Player's First Name:
+              <input type="text" id="first_name" name="first_name" required
             /></label>
             <label for="last_name"
-              >Last Name: <input type="text" id="last_name" name="last_name"
+              >Last Name: <input type="text" id="last_name" name="last_name" required
             /></label>
           </fieldset>
 
           <fieldset id="addressStyle">
             <label for="address"
-              >Street Address: <input type="text" id="address" name="address"
+              >Street Address: <input type="text" id="address" name="address" required
             /></label>
           </fieldset>
 
           <fieldset class="formbx">
             <label for="city"
-              >City: <input type="text" id="city" name="city"
+              >City: <input type="text" id="city" name="city" required
             /></label>
             <label for="ZipCode"
-              >Zip Code: <input type="text" id="ZipCode" name="ZipCode"
+              >Zip Code: <input type="text" id="ZipCode" name="ZipCode" required
             /></label>
           </fieldset>
 
           <fieldset class="formbx">
             <label for="birth"
-              >Birth Date(mm/dd/yyyy):
-              <input type="date" id="birth" name="birth"
+              >Birth Date(dd/mm/yyyy):
+              <input type="date" id="birth" name="birth" required
             /></label>
             <div>
               <span>Gender:</span>
               <label for="female">Female</label>
-              <input type="radio" id="female" name="gender" value="female" />
+              <input type="radio" id="female" name="gender" value="female" required />
               <label for="male">Male</label>
               <input type="radio" id="male" name="gender" value="male" />
             </div>
@@ -108,10 +110,9 @@
 
           <fieldset>
             <label for="parent"
-              >Parent/Guardian: <input type="text" id="parent" name="parent"
+              >Parent/Guardian: <input type="text" id="parent" name="parent" required
             /></label>
           </fieldset>
-
 
           <h2>Wich elementary school do you live near?</h2>
           <h3>Closest School</h3>
@@ -131,7 +132,7 @@
                   type="checkbox"
                   id="Greenbay"
                   name="schools"
-                  value="Greenbay"
+                  value="Greenbay" 
                 />
                 Greenbay</label
               >
@@ -230,7 +231,7 @@
                   type="radio"
                   id="Youth_Small"
                   name="uniform"
-                  value="Youth Small"
+                  value="Youth Small" required
                 />
                 Youth Small</label
               >
@@ -299,9 +300,9 @@
           </p>
 
           <label for="permission">Parent/Guardian Signature:</label>
-          <input type="text" id="permission" name="permission" />
+          <input type="text" id="permission" name="permission" required/>
           <label for="date">Date:</label>
-          <input type="date" name="date" id="date" />
+          <input type="date" name="date" id="date" required/>
 
           <button>submit</button>
         </form>
